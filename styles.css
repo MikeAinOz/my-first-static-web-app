@@ -30,6 +30,12 @@ h2 {
  font-family: Arial, Helvetica, sans-serif;
  /* font-family: Rockwell,'Times New Roman', Times, serif;*/
 }
+.snow {
+  color: #3E3F3F;
+  background-color: snow;
+  padding: 20px;
+  border-radius: 30px;
+}
 
 .myButton {
 	background-color: #5cbf2a;
