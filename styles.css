@@ -34,13 +34,18 @@ h2 {
   color: #3E3F3F;
   background-color: snow;
   padding: 20px;
-  border-radius: 30px;
+  border-radius: 10px;
+}
+.formfield {
+  border-radius: 4px;
+  width:250px; 
+  height: 21px;
 }
 
 .myButton {
 	background-color: #5cbf2a;
 	display:inline-block;
-  border-radius:20px;
+  border-radius:10px;
   border:1px solid #18ab29;
 	cursor: pointer;
 	color: #ffffff;

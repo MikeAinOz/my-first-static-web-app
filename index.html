@@ -17,7 +17,7 @@
                 <div>
                     <div style="width:150px"><i class="fa fa-user"></i></div>
 
-                    <input asp-for="Name" type="text" placeholder="Name" style="width:250px; height: 21px;"/>
+                    <input asp-for="Name" type="text" placeholder="Name" class="formfield" />
                     <span asp-validation-for="FirstName"></span>
                 </div>
             </div>
@@ -25,7 +25,7 @@
 
                 <div style="width:150px"><i class="fa fa-envelope-o"></i></div>
                 <div>
-                    <input asp-for="Email" type="text" placeholder="Email" style="width:250px; height: 21px;"/>
+                    <input asp-for="Email" type="text" placeholder="Email" class="formfield" />
             
                 </div>
 
@@ -33,7 +33,7 @@
             <div class="form-group">
                 <div style="width:150px"><i class="fa fa-pencil"></i></div>
 
-                <textarea asp-for="Message (optional)" rows="2" style="width:250px; height: 21px;" type="text" class="form-control" placeholder="Message"></textarea>
+                <textarea asp-for="Message (optional)" rows="2" class="formfield" type="text" class="form-control" placeholder="Message"></textarea>
         
 
             </div>
